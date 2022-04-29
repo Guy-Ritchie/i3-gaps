@@ -1,0 +1,25 @@
+" Path at '/home/<username>/.vim/vimrc'
+:set number
+:set nocompatible
+:set autoindent
+:set smarttab
+:set tabstop=4
+:set shiftwidth=4
+:set softtabstop=4
+:set mouse=a
+
+call plug#begin()									" Search 'vim-plug' install using the curl command.. and then.. link the plugins you need
+
+Plug 'https://github.com/preservim/nerdtree'		" NerdTree  = used to display the directory structure
+Plug 'https://github.com/vim-airline/vim-airline'	" Airline   = status bar at the bottom
+Plug 'https://github.com/ap/vim-css-color'			" CSS-color = shows the preview of the colors right on top of the color name
+Plug 'https://github.com/neoclide/coc.nvim'			" COC		= 'Conqueror of Completion' - auto-completion
+Plug 'https://github.com/ryanoasis/vim-devicons'    " devicons  = sets icons that properly resonate the file type in the NerdTree sidebar
+
+set encoding=UTF-8
+
+call plug#end()
+
+nnoremap <C-t> :NERDTreeToggle<CR>		"Setting the keybinding 'Ctrl+t' to toggle the NerdTree sidebar on and off..
+
+nmap <F8> :below term<CR>				"Since there seems to be some sort of problem with the vim-terminal plugin, where it doesn't work properly, I've mapped the keybinding to instead invoke the pre-existing terminal in vim using the 'F8' key.
