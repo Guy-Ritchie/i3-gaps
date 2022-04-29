@@ -1,0 +1,19 @@
+git init -b main ==> 
+						* "init = initialize local git repository"
+						* "-b   = option to specify the branch"
+						* "main = initialize the main branch"
+
+git commit -m "Commit Message" ==>
+									* "commit = commit the changes"
+									* "-m	  = option to specify the commit message"
+									'The commit command should consist of atleast one commit message'
+
+git remote add origin "git-repo-ssh-link" ==>
+												* "remote = the location of the repository (local or remote)"
+												* "add    = add the repository"
+												* "origin = origin refers to the origin of the repository / source of the repo"
+												'The ssh link to the repo should be fetched after creating a repo in Github, without creation of any READ.MD files..'
+
+git remote -v ==> can be used to verify the remote repo, the local git is linked to..
+
+git push origin main ==> push the locally comitted code, to the remote repository's main branch.
