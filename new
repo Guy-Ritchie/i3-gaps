@@ -1,0 +1,16 @@
+
+  sudo pacman -S virt-manager qemu vde2 ebtables dnsmasq bridge-utils openbsd-netcat
+  sudo systemctl start libvirtd.service
+  sudo vim br10.xml
+  sudo virsh net-define br10.xml 
+  sudo virsh net-start br10
+  vim br10.xml 
+
+  sudo vish net-autostart br10 // to auto-start br10 network interface as the system boots up.
+
+
+// # no polkit agent available to authenticate action 'org.libvirt.unix.manage'
+
+// Recieved the above error when trying to run virt-manager. Seems like the kvm had to run with elevated previlages.. So, to resolve this issue.. The following command was run:
+
+	// sudo usermod -aG libvirt <user-name-without-being-enclosed-in-angular-brackets> 
