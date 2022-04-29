@@ -1,0 +1,5 @@
+[ Android File Transfer ]
+
+* mtp-detect = run after enabling data transfer via usb on your phone..
+* mtp-connect = after mtp-detect, run this.
+* mtp-sendfile = "sudo mtp-sendfile path-to-file-on-PC path-to-file-on-phone-from-android-root-structure"
