@@ -10,6 +10,10 @@ One [Description file](virtualisation/kvm-installation) and one [XML File](virtu
 
 ## Scripts:
 This folder contains a few shell [scripts](scripts/dual.sh) I've written to facilitate and automate some of my processes \[Has only one as of now\].
+The script when used, helps in configuration of Dual Monitor Setup, in my home set-up \( you can make small tweaks to make it work on your set-up too\) like shown below :
+
+![Dual Monitor Configuration Shell Script](dual.png))
+
 
 #### Misc :
 
@@ -17,5 +21,7 @@ There are a few descriptional files in this repo.
 These files might show the use of "pacman" (the awesome package manager arch linux ships with). But feel free to change the commands to suit your distro's package manager commands.
 
 There are also a few screen-shot files in the repo, which are useful to visualize some of the commands. 
+
 (For example, The Android File Transfer commands; as shown below:)
+
 ![Android File Transfer pictorial representation](android-ft.png)
