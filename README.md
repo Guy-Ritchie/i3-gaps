@@ -12,7 +12,7 @@ One [Description file](virtualisation/kvm-installation) and one [XML File](virtu
 This folder contains a few shell [scripts](scripts/dual.sh) I've written to facilitate and automate some of my processes \[Has only one as of now\].
 The script when used, helps in configuration of Dual Monitor Setup, in my home set-up \( you can make small tweaks to make it work on your set-up too\) like shown below :
 
-![Dual Monitor Configuration Shell Script](dual.png))
+![Dual Monitor Configuration Shell Script](dual.png)
 
 
 #### Misc :
